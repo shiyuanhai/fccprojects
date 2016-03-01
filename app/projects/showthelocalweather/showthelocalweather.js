@@ -40,8 +40,24 @@ function displayWeather(weather){
   $("#tempDisplay").html(fvalue);
   $("#f2c").attr("data-fvalue", fvalue);
   $("#f2c").attr("data-cvalue", cvalue);
+  updateIcon(weather.weather[0].main);
 }
 
-function updateIcon(){
-  
+function updateIcon(des){
+  var iconClass = "";
+  des = des.toLowerCase();
+  switch(des){
+    case "clear":
+      iconClass = "wi-night-clear";
+      break;
+    case "rain":
+      iconClass = "wi-day-rain";
+      break;
+    case "clouds":
+      iconClass = "wi-day-cloudy";
+      break;
+    default:
+      iconClass = "wi-day-sunny";
+  }
+  $("#wicon i").attr("class","wi " + iconClass);
 }

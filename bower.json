@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "jquery": "~2.2.1",
-    "bootstrap": "~3.3.6"
+    "bootstrap": "~3.3.6",
+    "weather-icons" : "2.0.10"
   }
 }

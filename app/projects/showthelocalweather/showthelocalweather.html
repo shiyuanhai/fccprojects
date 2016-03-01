@@ -6,16 +6,18 @@
 	<script type="text/javascript" src="showthelocalweather.js"></script>
 	<link rel="stylesheet" type="text/css" href="showthelocalweather.css">
 	<link rel="stylesheet" type="text/css" href="../../components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../../components/weather-icons/css/weather-icons.css">
 </head>
 <body>
 	<div class="container">
-	    <div class="row">
-	      <h1 class="col-xs-12 text-center">Local Weather</h1>
-	      <h2 class="col-xs-12 text-center"id="location"></h2>
-	      <h3 class="col-xs-12 text-center" id="weather"></h3>
-	      <h1 class="col-xs-12 text-center" id="temp">
+	    <div class="row well text-center">
+	      <h1 class="col-xs-12">Local Weather</h1>
+	      <h2 class="col-xs-12"id="location"></h2>
+	      <h3 class="col-xs-12" id="weather"></h3>
+	      <h1 class="col-xs-12" id="temp">
 	      	<span id="tempDisplay"></span>° <span id="f2c" data-fvalue="" data-cvalue="" data-forc="f">F</span>
 	      </h1>
+	      <div id="wicon" style="font-size: 48px;"><i class="wi wi-day-sunny"></i></div>
 	    </div>
 	  </div>
 </body>
