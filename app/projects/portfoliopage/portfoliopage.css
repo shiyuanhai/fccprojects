@@ -1,0 +1,28 @@
+section:first-of-type{
+  padding: 150px 30px;
+}
+
+section{
+  padding: 80px 30px;
+}
+
+section .row{
+  padding: 0px 0px 40px 0px;
+}
+
+.fa{
+  font-size: 48pt;
+}
+
+#portfolio .fa{
+  font-size: 72pt;
+}
+
+#about,#contact{
+	background: #eaeae1;
+}
+
+nav ul{
+	padding: 20px;
+	font-size: 16pt;
+}
